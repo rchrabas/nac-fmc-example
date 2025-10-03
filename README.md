@@ -34,20 +34,20 @@ Edit the configuration file at `gen/cfg.yaml`:
 
 ```yaml
 settings:
-  - hosts_number: 10                          # Number of host objects to generate
-  - networks_number: 10                       # Number of network objects to generate
-  - ranges_number: 10                         # Number of range objects to generate
-  - ports_number: 10                          # Number of port objects to generate
-  - icmpv4s_number: 10                        # Number of ICMPv4 objects to generate
-  - security_zones_number: 10                 # Number of security zone objects to generate
-  - port_groups_number: 5                     # Number of port group objects to generate
-  - network_groups_number: 5                  # Number of network group objects to generate
-  - urls_number: 10                           # Number of URL objects to generate
-  - url_groups_number: 5                      # Number of URL group objects to generate
-  - intrusion_policies_number: 3              # Number of intrusion policies to generate
-  - access_control_policies_number: 2         # Number of access control policies to generate
-  - access_control_categories_number: 4       # Number of categories per access control policy
-  - access_control_rules_number: 20           # Number of rules per access control policy
+  - hosts_number: 10                      # Number of host objects to generate
+  - networks_number: 10                   # Number of network objects to generate
+  - ranges_number: 10                     # Number of range objects to generate
+  - ports_number: 10                      # Number of port objects to generate
+  - icmpv4s_number: 10                    # Number of ICMPv4 objects to generate
+  - security_zones_number: 10             # Number of security zone objects to generate
+  - port_groups_number: 5                 # Number of port group objects to generate
+  - network_groups_number: 5              # Number of network group objects to generate
+  - urls_number: 10                       # Number of URL objects to generate
+  - url_groups_number: 5                  # Number of URL group objects to generate
+  - intrusion_policies_number: 3          # Number of intrusion policies to generate
+  - access_control_policies_number: 2     # Number of access control policies to generate
+  - access_control_categories_number: 4   # Number of categories per access control policy
+  - access_control_rules_number: 20       # Number of rules per access control policy
 ```
 
 ## Usage
