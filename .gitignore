@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Terraform
+.terraform
+.terraform.lock.hcl
+terraform.tfstate*
+
+# Claude
+.claude
+CLAUDE.md

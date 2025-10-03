@@ -1,0 +1,1596 @@
+fmc:
+  domains:
+  - name: Global
+    objects:
+      url_groups:
+      - name: url_group_1
+        urls:
+        - url_222
+        - url_324
+        - url_63
+        literals:
+        - https://cdn.example.com
+      - name: url_group_2
+        urls:
+        - url_134
+        - url_575
+        - url_101
+        - url_405
+        literals:
+        - https://cdn.example.com
+        - https://wiki.example.com
+        - https://api.example.com
+      - name: url_group_3
+        urls:
+        - url_677
+        - url_275
+        literals:
+        - https://support.example.com
+      - name: url_group_4
+        urls:
+        - url_253
+        - url_429
+        - url_27
+        literals:
+        - https://store.example.com
+        - https://store.example.com
+        - https://wiki.example.com
+      - name: url_group_5
+        urls:
+        - url_674
+        - url_786
+        - url_726
+        - url_317
+        literals:
+        - https://web.example.com
+      - name: url_group_6
+        urls:
+        - url_574
+        - url_120
+        - url_389
+        literals:
+        - https://staging.example.com
+      - name: url_group_7
+        urls:
+        - url_1
+        - url_282
+        - url_231
+        literals:
+        - https://api.example.com
+      - name: url_group_8
+        urls:
+        - url_563
+        - url_334
+        - url_411
+        - url_75
+        literals:
+        - https://cdn.example.com
+        - https://www.example.com
+        - https://prod.example.com
+      - name: url_group_9
+        urls:
+        - url_315
+        - url_309
+        literals:
+        - https://api.example.com
+      - name: url_group_10
+        urls:
+        - url_414
+        - url_732
+        - url_700
+        - url_448
+        literals:
+        - https://blog.example.com
+        - https://staging.example.com
+        - https://portal.example.com
+      - name: url_group_11
+        urls:
+        - url_144
+        - url_615
+        - url_191
+        literals:
+        - https://help.example.com
+        - https://staging.example.com
+        - https://blog.example.com
+      - name: url_group_12
+        urls:
+        - url_501
+        - url_10
+        literals:
+        - https://cdn.example.com
+        - https://store.example.com
+      - name: url_group_13
+        urls:
+        - url_181
+        - url_563
+        literals:
+        - https://mail.example.com
+      - name: url_group_14
+        urls:
+        - url_602
+        - url_574
+        literals:
+        - https://wiki.example.com
+      - name: url_group_15
+        urls:
+        - url_152
+        - url_265
+        - url_469
+        - url_650
+        literals:
+        - https://news.example.com
+      - name: url_group_16
+        urls:
+        - url_709
+        - url_115
+        literals:
+        - https://admin.example.com
+        - https://app.example.com
+      - name: url_group_17
+        urls:
+        - url_243
+        - url_464
+        - url_676
+        - url_360
+        literals:
+        - https://wiki.example.com
+        - https://staging.example.com
+      - name: url_group_18
+        urls:
+        - url_463
+        - url_532
+        literals:
+        - https://dev.example.com
+        - https://web.example.com
+      - name: url_group_19
+        urls:
+        - url_318
+        - url_678
+        - url_659
+        - url_649
+        literals:
+        - https://dev.example.com
+      - name: url_group_20
+        urls:
+        - url_337
+        - url_619
+        literals:
+        - https://shop.example.com
+        - https://admin.example.com
+      - name: url_group_21
+        urls:
+        - url_563
+        - url_326
+        - url_692
+        - url_422
+        literals:
+        - https://api.example.com
+        - https://shop.example.com
+      - name: url_group_22
+        urls:
+        - url_128
+        - url_484
+        literals:
+        - https://wiki.example.com
+        - https://web.example.com
+        - https://news.example.com
+      - name: url_group_23
+        urls:
+        - url_147
+        - url_530
+        literals:
+        - https://api.example.com
+        - https://portal.example.com
+      - name: url_group_24
+        urls:
+        - url_539
+        - url_465
+        - url_622
+        literals:
+        - https://blog.example.com
+        - https://staging.example.com
+      - name: url_group_25
+        urls:
+        - url_721
+        - url_723
+        - url_627
+        literals:
+        - https://wiki.example.com
+      - name: url_group_26
+        urls:
+        - url_66
+        - url_657
+        literals:
+        - https://store.example.com
+        - https://support.example.com
+      - name: url_group_27
+        urls:
+        - url_729
+        - url_377
+        literals:
+        - https://blog.example.com
+      - name: url_group_28
+        urls:
+        - url_587
+        - url_503
+        literals:
+        - https://www.example.com
+      - name: url_group_29
+        urls:
+        - url_9
+        - url_21
+        - url_168
+        literals:
+        - https://wiki.example.com
+      - name: url_group_30
+        urls:
+        - url_37
+        - url_276
+        - url_95
+        - url_715
+        literals:
+        - https://mail.example.com
+        - https://dev.example.com
+        - https://wiki.example.com
+      - name: url_group_31
+        urls:
+        - url_85
+        - url_99
+        literals:
+        - https://admin.example.com
+      - name: url_group_32
+        urls:
+        - url_632
+        - url_176
+        - url_739
+        literals:
+        - https://admin.example.com
+        - https://www.example.com
+      - name: url_group_33
+        urls:
+        - url_737
+        - url_170
+        - url_500
+        literals:
+        - https://help.example.com
+        - https://store.example.com
+        - https://web.example.com
+      - name: url_group_34
+        urls:
+        - url_220
+        - url_1
+        literals:
+        - https://cdn.example.com
+      - name: url_group_35
+        urls:
+        - url_739
+        - url_221
+        - url_353
+        literals:
+        - https://www.example.com
+        - https://mail.example.com
+        - https://docs.example.com
+      - name: url_group_36
+        urls:
+        - url_596
+        - url_4
+        - url_478
+        - url_645
+        literals:
+        - https://news.example.com
+        - https://blog.example.com
+      - name: url_group_37
+        urls:
+        - url_523
+        - url_649
+        - url_524
+        - url_633
+        literals:
+        - https://cdn.example.com
+        - https://www.example.com
+      - name: url_group_38
+        urls:
+        - url_485
+        - url_18
+        literals:
+        - https://shop.example.com
+        - https://staging.example.com
+        - https://news.example.com
+      - name: url_group_39
+        urls:
+        - url_667
+        - url_672
+        - url_783
+        - url_345
+        literals:
+        - https://docs.example.com
+      - name: url_group_40
+        urls:
+        - url_438
+        - url_780
+        - url_445
+        - url_439
+        literals:
+        - https://cdn.example.com
+        - https://cdn.example.com
+        - https://news.example.com
+      - name: url_group_41
+        urls:
+        - url_583
+        - url_535
+        literals:
+        - https://api.example.com
+        - https://portal.example.com
+        - https://support.example.com
+      - name: url_group_42
+        urls:
+        - url_517
+        - url_265
+        - url_383
+        - url_758
+        literals:
+        - https://docs.example.com
+        - https://admin.example.com
+        - https://docs.example.com
+      - name: url_group_43
+        urls:
+        - url_399
+        - url_268
+        literals:
+        - https://app.example.com
+      - name: url_group_44
+        urls:
+        - url_212
+        - url_160
+        literals:
+        - https://wiki.example.com
+      - name: url_group_45
+        urls:
+        - url_12
+        - url_198
+        literals:
+        - https://blog.example.com
+        - https://www.example.com
+      - name: url_group_46
+        urls:
+        - url_354
+        - url_317
+        - url_433
+        - url_23
+        literals:
+        - https://store.example.com
+      - name: url_group_47
+        urls:
+        - url_638
+        - url_276
+        - url_265
+        literals:
+        - https://cdn.example.com
+        - https://api.example.com
+        - https://news.example.com
+      - name: url_group_48
+        urls:
+        - url_314
+        - url_65
+        literals:
+        - https://portal.example.com
+        - https://dev.example.com
+        - https://test.example.com
+      - name: url_group_49
+        urls:
+        - url_364
+        - url_168
+        - url_330
+        - url_454
+        literals:
+        - https://blog.example.com
+        - https://help.example.com
+        - https://portal.example.com
+      - name: url_group_50
+        urls:
+        - url_528
+        - url_223
+        literals:
+        - https://test.example.com
+      - name: url_group_51
+        urls:
+        - url_466
+        - url_409
+        - url_653
+        literals:
+        - https://support.example.com
+        - https://test.example.com
+      - name: url_group_52
+        urls:
+        - url_316
+        - url_281
+        literals:
+        - https://mail.example.com
+      - name: url_group_53
+        urls:
+        - url_776
+        - url_236
+        - url_151
+        - url_238
+        literals:
+        - https://support.example.com
+        - https://blog.example.com
+        - https://app.example.com
+      - name: url_group_54
+        urls:
+        - url_22
+        - url_182
+        - url_580
+        literals:
+        - https://cdn.example.com
+        - https://admin.example.com
+        - https://prod.example.com
+      - name: url_group_55
+        urls:
+        - url_3
+        - url_609
+        - url_26
+        literals:
+        - https://cdn.example.com
+        - https://prod.example.com
+        - https://news.example.com
+      - name: url_group_56
+        urls:
+        - url_416
+        - url_495
+        - url_117
+        - url_347
+        literals:
+        - https://blog.example.com
+        - https://admin.example.com
+      - name: url_group_57
+        urls:
+        - url_425
+        - url_151
+        - url_164
+        literals:
+        - https://help.example.com
+        - https://web.example.com
+        - https://blog.example.com
+      - name: url_group_58
+        urls:
+        - url_46
+        - url_221
+        - url_304
+        - url_760
+        literals:
+        - https://portal.example.com
+        - https://mail.example.com
+      - name: url_group_59
+        urls:
+        - url_616
+        - url_710
+        - url_395
+        - url_743
+        literals:
+        - https://store.example.com
+        - https://help.example.com
+        - https://test.example.com
+      - name: url_group_60
+        urls:
+        - url_435
+        - url_214
+        - url_34
+        - url_284
+        literals:
+        - https://prod.example.com
+        - https://help.example.com
+        - https://www.example.com
+      - name: url_group_61
+        urls:
+        - url_228
+        - url_223
+        - url_521
+        literals:
+        - https://docs.example.com
+        - https://news.example.com
+      - name: url_group_62
+        urls:
+        - url_258
+        - url_681
+        - url_693
+        - url_217
+        literals:
+        - https://web.example.com
+        - https://blog.example.com
+      - name: url_group_63
+        urls:
+        - url_568
+        - url_549
+        - url_233
+        - url_76
+        literals:
+        - https://test.example.com
+      - name: url_group_64
+        urls:
+        - url_575
+        - url_154
+        - url_184
+        literals:
+        - https://blog.example.com
+        - https://api.example.com
+      - name: url_group_65
+        urls:
+        - url_443
+        - url_249
+        literals:
+        - https://admin.example.com
+      - name: url_group_66
+        urls:
+        - url_586
+        - url_191
+        - url_540
+        literals:
+        - https://cdn.example.com
+      - name: url_group_67
+        urls:
+        - url_780
+        - url_46
+        - url_274
+        - url_226
+        literals:
+        - https://wiki.example.com
+        - https://shop.example.com
+        - https://news.example.com
+      - name: url_group_68
+        urls:
+        - url_124
+        - url_583
+        - url_703
+        literals:
+        - https://prod.example.com
+      - name: url_group_69
+        urls:
+        - url_391
+        - url_284
+        - url_743
+        literals:
+        - https://cdn.example.com
+        - https://staging.example.com
+        - https://support.example.com
+      - name: url_group_70
+        urls:
+        - url_147
+        - url_321
+        literals:
+        - https://news.example.com
+      - name: url_group_71
+        urls:
+        - url_764
+        - url_765
+        - url_85
+        literals:
+        - https://help.example.com
+      - name: url_group_72
+        urls:
+        - url_143
+        - url_342
+        - url_696
+        literals:
+        - https://blog.example.com
+        - https://cdn.example.com
+      - name: url_group_73
+        urls:
+        - url_577
+        - url_111
+        literals:
+        - https://portal.example.com
+        - https://cdn.example.com
+      - name: url_group_74
+        urls:
+        - url_518
+        - url_293
+        - url_626
+        - url_515
+        literals:
+        - https://docs.example.com
+        - https://admin.example.com
+        - https://mail.example.com
+      - name: url_group_75
+        urls:
+        - url_207
+        - url_304
+        - url_556
+        literals:
+        - https://api.example.com
+      - name: url_group_76
+        urls:
+        - url_434
+        - url_196
+        - url_91
+        literals:
+        - https://store.example.com
+        - https://shop.example.com
+      - name: url_group_77
+        urls:
+        - url_227
+        - url_516
+        literals:
+        - https://staging.example.com
+      - name: url_group_78
+        urls:
+        - url_197
+        - url_458
+        - url_557
+        literals:
+        - https://support.example.com
+        - https://support.example.com
+      - name: url_group_79
+        urls:
+        - url_197
+        - url_524
+        - url_447
+        - url_187
+        literals:
+        - https://portal.example.com
+      - name: url_group_80
+        urls:
+        - url_226
+        - url_8
+        - url_546
+        literals:
+        - https://test.example.com
+      - name: url_group_81
+        urls:
+        - url_305
+        - url_531
+        literals:
+        - https://www.example.com
+        - https://mail.example.com
+        - https://mail.example.com
+      - name: url_group_82
+        urls:
+        - url_303
+        - url_307
+        literals:
+        - https://dev.example.com
+        - https://staging.example.com
+        - https://mail.example.com
+      - name: url_group_83
+        urls:
+        - url_281
+        - url_727
+        literals:
+        - https://www.example.com
+        - https://portal.example.com
+      - name: url_group_84
+        urls:
+        - url_351
+        - url_698
+        literals:
+        - https://blog.example.com
+        - https://staging.example.com
+        - https://wiki.example.com
+      - name: url_group_85
+        urls:
+        - url_6
+        - url_165
+        - url_468
+        literals:
+        - https://admin.example.com
+        - https://app.example.com
+        - https://help.example.com
+      - name: url_group_86
+        urls:
+        - url_209
+        - url_794
+        - url_624
+        - url_418
+        literals:
+        - https://admin.example.com
+        - https://dev.example.com
+        - https://store.example.com
+      - name: url_group_87
+        urls:
+        - url_216
+        - url_597
+        - url_36
+        - url_783
+        literals:
+        - https://app.example.com
+      - name: url_group_88
+        urls:
+        - url_184
+        - url_450
+        - url_88
+        literals:
+        - https://docs.example.com
+      - name: url_group_89
+        urls:
+        - url_781
+        - url_675
+        - url_694
+        literals:
+        - https://web.example.com
+        - https://news.example.com
+      - name: url_group_90
+        urls:
+        - url_529
+        - url_240
+        - url_717
+        literals:
+        - https://test.example.com
+      - name: url_group_91
+        urls:
+        - url_247
+        - url_56
+        - url_171
+        literals:
+        - https://support.example.com
+        - https://blog.example.com
+        - https://help.example.com
+      - name: url_group_92
+        urls:
+        - url_795
+        - url_264
+        literals:
+        - https://wiki.example.com
+        - https://test.example.com
+      - name: url_group_93
+        urls:
+        - url_549
+        - url_381
+        - url_357
+        - url_593
+        literals:
+        - https://mail.example.com
+      - name: url_group_94
+        urls:
+        - url_769
+        - url_174
+        - url_131
+        - url_693
+        literals:
+        - https://portal.example.com
+        - https://wiki.example.com
+      - name: url_group_95
+        urls:
+        - url_575
+        - url_700
+        - url_184
+        literals:
+        - https://test.example.com
+      - name: url_group_96
+        urls:
+        - url_652
+        - url_783
+        - url_666
+        - url_264
+        literals:
+        - https://portal.example.com
+      - name: url_group_97
+        urls:
+        - url_721
+        - url_576
+        literals:
+        - https://blog.example.com
+      - name: url_group_98
+        urls:
+        - url_6
+        - url_195
+        - url_645
+        literals:
+        - https://www.example.com
+      - name: url_group_99
+        urls:
+        - url_135
+        - url_781
+        literals:
+        - https://prod.example.com
+        - https://support.example.com
+      - name: url_group_100
+        urls:
+        - url_670
+        - url_525
+        literals:
+        - https://app.example.com
+      - name: url_group_101
+        urls:
+        - url_684
+        - url_592
+        literals:
+        - https://api.example.com
+      - name: url_group_102
+        urls:
+        - url_790
+        - url_250
+        - url_359
+        - url_210
+        literals:
+        - https://dev.example.com
+      - name: url_group_103
+        urls:
+        - url_10
+        - url_138
+        - url_578
+        - url_289
+        literals:
+        - https://app.example.com
+        - https://dev.example.com
+        - https://admin.example.com
+      - name: url_group_104
+        urls:
+        - url_423
+        - url_704
+        - url_20
+        - url_70
+        literals:
+        - https://web.example.com
+      - name: url_group_105
+        urls:
+        - url_90
+        - url_523
+        literals:
+        - https://shop.example.com
+      - name: url_group_106
+        urls:
+        - url_33
+        - url_688
+        - url_274
+        - url_795
+        literals:
+        - https://shop.example.com
+        - https://prod.example.com
+        - https://help.example.com
+      - name: url_group_107
+        urls:
+        - url_583
+        - url_660
+        - url_218
+        literals:
+        - https://prod.example.com
+        - https://help.example.com
+        - https://support.example.com
+      - name: url_group_108
+        urls:
+        - url_625
+        - url_418
+        literals:
+        - https://prod.example.com
+        - https://dev.example.com
+      - name: url_group_109
+        urls:
+        - url_546
+        - url_34
+        - url_529
+        literals:
+        - https://help.example.com
+      - name: url_group_110
+        urls:
+        - url_66
+        - url_517
+        literals:
+        - https://docs.example.com
+      - name: url_group_111
+        urls:
+        - url_430
+        - url_636
+        - url_689
+        - url_304
+        literals:
+        - https://admin.example.com
+        - https://support.example.com
+        - https://dev.example.com
+      - name: url_group_112
+        urls:
+        - url_604
+        - url_62
+        - url_269
+        literals:
+        - https://support.example.com
+      - name: url_group_113
+        urls:
+        - url_700
+        - url_720
+        literals:
+        - https://news.example.com
+        - https://store.example.com
+      - name: url_group_114
+        urls:
+        - url_26
+        - url_728
+        - url_184
+        - url_435
+        literals:
+        - https://cdn.example.com
+        - https://dev.example.com
+        - https://blog.example.com
+      - name: url_group_115
+        urls:
+        - url_201
+        - url_547
+        literals:
+        - https://wiki.example.com
+        - https://api.example.com
+      - name: url_group_116
+        urls:
+        - url_439
+        - url_670
+        literals:
+        - https://admin.example.com
+      - name: url_group_117
+        urls:
+        - url_287
+        - url_328
+        - url_322
+        literals:
+        - https://blog.example.com
+        - https://dev.example.com
+        - https://app.example.com
+      - name: url_group_118
+        urls:
+        - url_565
+        - url_322
+        - url_339
+        literals:
+        - https://docs.example.com
+      - name: url_group_119
+        urls:
+        - url_487
+        - url_14
+        - url_60
+        - url_790
+        literals:
+        - https://app.example.com
+      - name: url_group_120
+        urls:
+        - url_108
+        - url_192
+        literals:
+        - https://blog.example.com
+        - https://docs.example.com
+        - https://shop.example.com
+      - name: url_group_121
+        urls:
+        - url_381
+        - url_124
+        - url_182
+        - url_89
+        literals:
+        - https://staging.example.com
+        - https://docs.example.com
+      - name: url_group_122
+        urls:
+        - url_516
+        - url_642
+        - url_613
+        - url_785
+        literals:
+        - https://mail.example.com
+      - name: url_group_123
+        urls:
+        - url_150
+        - url_636
+        - url_652
+        literals:
+        - https://store.example.com
+        - https://test.example.com
+        - https://app.example.com
+      - name: url_group_124
+        urls:
+        - url_351
+        - url_2
+        - url_185
+        - url_379
+        literals:
+        - https://api.example.com
+      - name: url_group_125
+        urls:
+        - url_445
+        - url_591
+        - url_139
+        literals:
+        - https://help.example.com
+        - https://app.example.com
+        - https://staging.example.com
+      - name: url_group_126
+        urls:
+        - url_186
+        - url_123
+        literals:
+        - https://admin.example.com
+      - name: url_group_127
+        urls:
+        - url_138
+        - url_61
+        literals:
+        - https://app.example.com
+        - https://web.example.com
+      - name: url_group_128
+        urls:
+        - url_136
+        - url_390
+        literals:
+        - https://store.example.com
+        - https://prod.example.com
+        - https://shop.example.com
+      - name: url_group_129
+        urls:
+        - url_243
+        - url_328
+        literals:
+        - https://portal.example.com
+        - https://dev.example.com
+        - https://store.example.com
+      - name: url_group_130
+        urls:
+        - url_160
+        - url_72
+        - url_508
+        - url_629
+        literals:
+        - https://help.example.com
+        - https://store.example.com
+        - https://wiki.example.com
+      - name: url_group_131
+        urls:
+        - url_206
+        - url_321
+        - url_489
+        - url_366
+        literals:
+        - https://app.example.com
+        - https://admin.example.com
+        - https://store.example.com
+      - name: url_group_132
+        urls:
+        - url_570
+        - url_147
+        - url_452
+        literals:
+        - https://portal.example.com
+        - https://test.example.com
+        - https://shop.example.com
+      - name: url_group_133
+        urls:
+        - url_17
+        - url_288
+        - url_529
+        literals:
+        - https://portal.example.com
+        - https://mail.example.com
+        - https://www.example.com
+      - name: url_group_134
+        urls:
+        - url_1
+        - url_37
+        - url_252
+        literals:
+        - https://dev.example.com
+        - https://app.example.com
+        - https://dev.example.com
+      - name: url_group_135
+        urls:
+        - url_593
+        - url_305
+        - url_292
+        literals:
+        - https://web.example.com
+        - https://dev.example.com
+      - name: url_group_136
+        urls:
+        - url_527
+        - url_421
+        - url_479
+        literals:
+        - https://docs.example.com
+        - https://store.example.com
+        - https://blog.example.com
+      - name: url_group_137
+        urls:
+        - url_292
+        - url_564
+        literals:
+        - https://blog.example.com
+      - name: url_group_138
+        urls:
+        - url_765
+        - url_326
+        - url_232
+        - url_75
+        literals:
+        - https://staging.example.com
+        - https://store.example.com
+        - https://api.example.com
+      - name: url_group_139
+        urls:
+        - url_288
+        - url_732
+        literals:
+        - https://staging.example.com
+      - name: url_group_140
+        urls:
+        - url_669
+        - url_227
+        literals:
+        - https://store.example.com
+      - name: url_group_141
+        urls:
+        - url_44
+        - url_210
+        - url_442
+        - url_345
+        literals:
+        - https://shop.example.com
+      - name: url_group_142
+        urls:
+        - url_581
+        - url_776
+        - url_1
+        literals:
+        - https://prod.example.com
+      - name: url_group_143
+        urls:
+        - url_276
+        - url_305
+        literals:
+        - https://support.example.com
+        - https://cdn.example.com
+        - https://prod.example.com
+      - name: url_group_144
+        urls:
+        - url_351
+        - url_480
+        literals:
+        - https://web.example.com
+        - https://portal.example.com
+        - https://api.example.com
+      - name: url_group_145
+        urls:
+        - url_614
+        - url_47
+        literals:
+        - https://help.example.com
+        - https://test.example.com
+      - name: url_group_146
+        urls:
+        - url_232
+        - url_144
+        - url_474
+        - url_532
+        literals:
+        - https://portal.example.com
+        - https://cdn.example.com
+      - name: url_group_147
+        urls:
+        - url_278
+        - url_247
+        - url_490
+        literals:
+        - https://support.example.com
+        - https://docs.example.com
+      - name: url_group_148
+        urls:
+        - url_355
+        - url_489
+        literals:
+        - https://blog.example.com
+      - name: url_group_149
+        urls:
+        - url_8
+        - url_114
+        literals:
+        - https://shop.example.com
+        - https://admin.example.com
+        - https://docs.example.com
+      - name: url_group_150
+        urls:
+        - url_656
+        - url_272
+        - url_68
+        literals:
+        - https://store.example.com
+        - https://www.example.com
+        - https://test.example.com
+      - name: url_group_151
+        urls:
+        - url_322
+        - url_524
+        - url_201
+        - url_690
+        literals:
+        - https://portal.example.com
+      - name: url_group_152
+        urls:
+        - url_733
+        - url_363
+        literals:
+        - https://portal.example.com
+        - https://shop.example.com
+        - https://app.example.com
+      - name: url_group_153
+        urls:
+        - url_703
+        - url_218
+        - url_748
+        - url_581
+        literals:
+        - https://admin.example.com
+      - name: url_group_154
+        urls:
+        - url_206
+        - url_456
+        - url_658
+        - url_670
+        literals:
+        - https://staging.example.com
+      - name: url_group_155
+        urls:
+        - url_106
+        - url_193
+        literals:
+        - https://docs.example.com
+        - https://admin.example.com
+        - https://mail.example.com
+      - name: url_group_156
+        urls:
+        - url_102
+        - url_695
+        - url_589
+        - url_153
+        literals:
+        - https://dev.example.com
+        - https://admin.example.com
+        - https://mail.example.com
+      - name: url_group_157
+        urls:
+        - url_642
+        - url_356
+        - url_517
+        literals:
+        - https://portal.example.com
+        - https://cdn.example.com
+      - name: url_group_158
+        urls:
+        - url_53
+        - url_451
+        literals:
+        - https://support.example.com
+        - https://store.example.com
+        - https://api.example.com
+      - name: url_group_159
+        urls:
+        - url_130
+        - url_665
+        literals:
+        - https://dev.example.com
+        - https://mail.example.com
+        - https://store.example.com
+      - name: url_group_160
+        urls:
+        - url_121
+        - url_691
+        - url_323
+        - url_413
+        literals:
+        - https://help.example.com
+      - name: url_group_161
+        urls:
+        - url_749
+        - url_626
+        literals:
+        - https://prod.example.com
+      - name: url_group_162
+        urls:
+        - url_66
+        - url_528
+        - url_29
+        literals:
+        - https://mail.example.com
+        - https://support.example.com
+        - https://news.example.com
+      - name: url_group_163
+        urls:
+        - url_711
+        - url_506
+        - url_667
+        literals:
+        - https://dev.example.com
+      - name: url_group_164
+        urls:
+        - url_232
+        - url_654
+        - url_756
+        literals:
+        - https://admin.example.com
+        - https://wiki.example.com
+        - https://app.example.com
+      - name: url_group_165
+        urls:
+        - url_134
+        - url_351
+        - url_286
+        literals:
+        - https://dev.example.com
+        - https://www.example.com
+      - name: url_group_166
+        urls:
+        - url_549
+        - url_792
+        - url_283
+        - url_459
+        literals:
+        - https://wiki.example.com
+        - https://mail.example.com
+      - name: url_group_167
+        urls:
+        - url_685
+        - url_418
+        - url_34
+        - url_258
+        literals:
+        - https://www.example.com
+        - https://admin.example.com
+        - https://wiki.example.com
+      - name: url_group_168
+        urls:
+        - url_598
+        - url_193
+        - url_309
+        - url_255
+        literals:
+        - https://admin.example.com
+      - name: url_group_169
+        urls:
+        - url_178
+        - url_771
+        - url_244
+        - url_508
+        literals:
+        - https://prod.example.com
+      - name: url_group_170
+        urls:
+        - url_13
+        - url_43
+        - url_172
+        - url_462
+        literals:
+        - https://test.example.com
+      - name: url_group_171
+        urls:
+        - url_664
+        - url_210
+        literals:
+        - https://news.example.com
+      - name: url_group_172
+        urls:
+        - url_776
+        - url_496
+        literals:
+        - https://blog.example.com
+      - name: url_group_173
+        urls:
+        - url_559
+        - url_524
+        - url_139
+        - url_579
+        literals:
+        - https://admin.example.com
+      - name: url_group_174
+        urls:
+        - url_445
+        - url_539
+        - url_9
+        - url_593
+        literals:
+        - https://cdn.example.com
+        - https://store.example.com
+        - https://wiki.example.com
+      - name: url_group_175
+        urls:
+        - url_18
+        - url_186
+        - url_456
+        literals:
+        - https://help.example.com
+        - https://portal.example.com
+      - name: url_group_176
+        urls:
+        - url_328
+        - url_507
+        - url_153
+        - url_414
+        literals:
+        - https://portal.example.com
+        - https://admin.example.com
+      - name: url_group_177
+        urls:
+        - url_414
+        - url_357
+        literals:
+        - https://prod.example.com
+        - https://web.example.com
+        - https://test.example.com
+      - name: url_group_178
+        urls:
+        - url_292
+        - url_417
+        literals:
+        - https://portal.example.com
+        - https://store.example.com
+      - name: url_group_179
+        urls:
+        - url_186
+        - url_344
+        - url_185
+        - url_150
+        literals:
+        - https://help.example.com
+        - https://help.example.com
+        - https://api.example.com
+      - name: url_group_180
+        urls:
+        - url_30
+        - url_178
+        literals:
+        - https://api.example.com
+        - https://support.example.com
+        - https://store.example.com
+      - name: url_group_181
+        urls:
+        - url_353
+        - url_226
+        - url_494
+        - url_147
+        literals:
+        - https://dev.example.com
+        - https://help.example.com
+        - https://test.example.com
+      - name: url_group_182
+        urls:
+        - url_271
+        - url_139
+        literals:
+        - https://admin.example.com
+        - https://test.example.com
+        - https://mail.example.com
+      - name: url_group_183
+        urls:
+        - url_621
+        - url_408
+        - url_581
+        literals:
+        - https://app.example.com
+        - https://test.example.com
+        - https://staging.example.com
+      - name: url_group_184
+        urls:
+        - url_496
+        - url_494
+        - url_663
+        literals:
+        - https://support.example.com
+        - https://test.example.com
+        - https://web.example.com
+      - name: url_group_185
+        urls:
+        - url_185
+        - url_478
+        - url_738
+        literals:
+        - https://portal.example.com
+      - name: url_group_186
+        urls:
+        - url_35
+        - url_668
+        literals:
+        - https://help.example.com
+        - https://support.example.com
+        - https://portal.example.com
+      - name: url_group_187
+        urls:
+        - url_239
+        - url_154
+        - url_274
+        - url_430
+        literals:
+        - https://news.example.com
+      - name: url_group_188
+        urls:
+        - url_291
+        - url_516
+        literals:
+        - https://www.example.com
+        - https://app.example.com
+      - name: url_group_189
+        urls:
+        - url_18
+        - url_114
+        - url_104
+        literals:
+        - https://news.example.com
+        - https://docs.example.com
+        - https://staging.example.com
+      - name: url_group_190
+        urls:
+        - url_259
+        - url_616
+        - url_280
+        literals:
+        - https://prod.example.com
+        - https://blog.example.com
+        - https://support.example.com
+      - name: url_group_191
+        urls:
+        - url_226
+        - url_32
+        - url_536
+        literals:
+        - https://store.example.com
+        - https://shop.example.com
+        - https://portal.example.com
+      - name: url_group_192
+        urls:
+        - url_14
+        - url_143
+        - url_87
+        - url_51
+        literals:
+        - https://blog.example.com
+      - name: url_group_193
+        urls:
+        - url_98
+        - url_355
+        literals:
+        - https://api.example.com
+        - https://docs.example.com
+        - https://prod.example.com
+      - name: url_group_194
+        urls:
+        - url_608
+        - url_700
+        - url_141
+        - url_423
+        literals:
+        - https://cdn.example.com
+        - https://test.example.com
+        - https://mail.example.com
+      - name: url_group_195
+        urls:
+        - url_605
+        - url_31
+        - url_331
+        - url_428
+        literals:
+        - https://wiki.example.com
+      - name: url_group_196
+        urls:
+        - url_716
+        - url_212
+        literals:
+        - https://www.example.com
+        - https://api.example.com
+      - name: url_group_197
+        urls:
+        - url_98
+        - url_386
+        - url_299
+        literals:
+        - https://store.example.com
+      - name: url_group_198
+        urls:
+        - url_654
+        - url_118
+        - url_628
+        - url_266
+        literals:
+        - https://cdn.example.com
+        - https://dev.example.com
+      - name: url_group_199
+        urls:
+        - url_240
+        - url_679
+        literals:
+        - https://app.example.com
+      - name: url_group_200
+        urls:
+        - url_393
+        - url_592
+        literals:
+        - https://api.example.com
+        - https://www.example.com

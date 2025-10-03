@@ -1,0 +1,8 @@
+existing:
+  fmc:
+    domains:
+    - name: Global
+      policies:
+        intrusion_policies:
+        - name: Balanced Security and Connectivity
+        - name: Security Over Connectivity

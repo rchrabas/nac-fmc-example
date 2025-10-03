@@ -1,0 +1,405 @@
+fmc:
+  domains:
+  - name: Global
+    objects:
+      ranges:
+      - name: range_1
+        ip_range: 10.164.9.85-10.187.130.146
+      - name: range_2
+        ip_range: 10.84.187.178-10.107.131.32
+      - name: range_3
+        ip_range: 10.103.97.114-10.221.194.29
+      - name: range_4
+        ip_range: 10.64.151.22-10.191.69.4
+      - name: range_5
+        ip_range: 10.78.233.31-10.143.2.127
+      - name: range_6
+        ip_range: 10.129.221.43-10.241.233.26
+      - name: range_7
+        ip_range: 10.62.245.39-10.174.67.148
+      - name: range_8
+        ip_range: 10.86.170.171-10.207.149.100
+      - name: range_9
+        ip_range: 10.93.152.246-10.202.39.253
+      - name: range_10
+        ip_range: 10.81.228.110-10.183.169.78
+      - name: range_11
+        ip_range: 10.216.15.179-10.225.96.181
+      - name: range_12
+        ip_range: 10.161.145.239-10.190.82.9
+      - name: range_13
+        ip_range: 10.3.50.6-10.230.169.109
+      - name: range_14
+        ip_range: 10.84.184.41-10.96.255.214
+      - name: range_15
+        ip_range: 10.23.52.249-10.214.53.136
+      - name: range_16
+        ip_range: 10.27.123.241-10.104.218.42
+      - name: range_17
+        ip_range: 10.221.2.230-10.237.164.107
+      - name: range_18
+        ip_range: 10.60.84.39-10.222.10.173
+      - name: range_19
+        ip_range: 10.5.29.23-10.113.233.77
+      - name: range_20
+        ip_range: 10.123.206.111-10.156.65.145
+      - name: range_21
+        ip_range: 10.113.153.27-10.114.25.228
+      - name: range_22
+        ip_range: 10.85.167.181-10.108.99.150
+      - name: range_23
+        ip_range: 10.107.138.56-10.120.236.232
+      - name: range_24
+        ip_range: 10.112.5.57-10.142.221.4
+      - name: range_25
+        ip_range: 10.166.71.67-10.193.135.24
+      - name: range_26
+        ip_range: 10.95.37.212-10.102.234.31
+      - name: range_27
+        ip_range: 10.42.172.132-10.139.27.48
+      - name: range_28
+        ip_range: 10.194.119.20-10.223.105.110
+      - name: range_29
+        ip_range: 10.59.100.208-10.198.5.155
+      - name: range_30
+        ip_range: 10.179.38.166-10.234.196.140
+      - name: range_31
+        ip_range: 10.26.10.233-10.87.7.208
+      - name: range_32
+        ip_range: 10.64.137.125-10.101.49.31
+      - name: range_33
+        ip_range: 10.73.164.141-10.147.150.143
+      - name: range_34
+        ip_range: 10.5.142.23-10.175.69.235
+      - name: range_35
+        ip_range: 10.145.21.92-10.254.130.235
+      - name: range_36
+        ip_range: 10.2.72.67-10.113.232.193
+      - name: range_37
+        ip_range: 10.130.92.68-10.198.176.75
+      - name: range_38
+        ip_range: 10.37.127.135-10.247.90.100
+      - name: range_39
+        ip_range: 10.88.224.157-10.220.61.117
+      - name: range_40
+        ip_range: 10.167.91.107-10.232.2.100
+      - name: range_41
+        ip_range: 10.60.172.176-10.128.251.59
+      - name: range_42
+        ip_range: 10.38.196.252-10.221.148.13
+      - name: range_43
+        ip_range: 10.174.80.235-10.197.123.1
+      - name: range_44
+        ip_range: 10.99.222.38-10.123.155.224
+      - name: range_45
+        ip_range: 10.83.245.24-10.92.156.164
+      - name: range_46
+        ip_range: 10.204.244.251-10.225.234.118
+      - name: range_47
+        ip_range: 10.96.85.109-10.208.184.24
+      - name: range_48
+        ip_range: 10.14.10.27-10.219.49.141
+      - name: range_49
+        ip_range: 10.193.94.41-10.203.173.17
+      - name: range_50
+        ip_range: 10.10.28.87-10.180.152.99
+      - name: range_51
+        ip_range: 10.180.26.154-10.207.235.5
+      - name: range_52
+        ip_range: 10.17.194.155-10.112.93.189
+      - name: range_53
+        ip_range: 10.137.71.24-10.209.84.28
+      - name: range_54
+        ip_range: 10.220.116.174-10.250.248.177
+      - name: range_55
+        ip_range: 10.85.90.217-10.92.120.56
+      - name: range_56
+        ip_range: 10.46.37.211-10.100.212.63
+      - name: range_57
+        ip_range: 10.229.244.135-10.234.4.229
+      - name: range_58
+        ip_range: 10.122.91.197-10.210.175.202
+      - name: range_59
+        ip_range: 10.9.166.237-10.43.236.223
+      - name: range_60
+        ip_range: 10.191.244.146-10.220.193.77
+      - name: range_61
+        ip_range: 10.140.174.56-10.233.211.160
+      - name: range_62
+        ip_range: 10.178.226.252-10.247.245.24
+      - name: range_63
+        ip_range: 10.59.189.203-10.122.114.122
+      - name: range_64
+        ip_range: 10.97.54.76-10.108.38.74
+      - name: range_65
+        ip_range: 10.63.139.143-10.158.225.233
+      - name: range_66
+        ip_range: 10.190.254.242-10.248.48.237
+      - name: range_67
+        ip_range: 10.79.216.7-10.244.114.12
+      - name: range_68
+        ip_range: 10.74.139.21-10.155.42.168
+      - name: range_69
+        ip_range: 10.31.114.181-10.116.109.10
+      - name: range_70
+        ip_range: 10.62.73.204-10.188.97.153
+      - name: range_71
+        ip_range: 10.35.194.248-10.230.132.115
+      - name: range_72
+        ip_range: 10.79.232.242-10.251.156.59
+      - name: range_73
+        ip_range: 10.129.57.244-10.171.130.207
+      - name: range_74
+        ip_range: 10.205.220.98-10.226.84.153
+      - name: range_75
+        ip_range: 10.118.98.132-10.146.142.113
+      - name: range_76
+        ip_range: 10.87.241.227-10.132.99.200
+      - name: range_77
+        ip_range: 10.14.165.247-10.183.184.186
+      - name: range_78
+        ip_range: 10.145.84.137-10.202.78.24
+      - name: range_79
+        ip_range: 10.188.251.21-10.225.240.102
+      - name: range_80
+        ip_range: 10.177.233.17-10.210.191.63
+      - name: range_81
+        ip_range: 10.118.102.168-10.120.96.72
+      - name: range_82
+        ip_range: 10.0.70.147-10.220.81.192
+      - name: range_83
+        ip_range: 10.74.21.164-10.247.10.82
+      - name: range_84
+        ip_range: 10.150.112.239-10.184.247.34
+      - name: range_85
+        ip_range: 10.127.180.193-10.228.101.240
+      - name: range_86
+        ip_range: 10.122.155.129-10.154.155.28
+      - name: range_87
+        ip_range: 10.21.34.129-10.81.129.127
+      - name: range_88
+        ip_range: 10.185.40.99-10.193.221.170
+      - name: range_89
+        ip_range: 10.172.166.215-10.186.108.19
+      - name: range_90
+        ip_range: 10.111.116.228-10.254.147.106
+      - name: range_91
+        ip_range: 10.162.163.103-10.201.178.12
+      - name: range_92
+        ip_range: 10.57.15.152-10.156.165.216
+      - name: range_93
+        ip_range: 10.30.78.107-10.210.22.254
+      - name: range_94
+        ip_range: 10.75.128.220-10.199.148.228
+      - name: range_95
+        ip_range: 10.3.66.204-10.86.236.201
+      - name: range_96
+        ip_range: 10.18.84.145-10.38.110.91
+      - name: range_97
+        ip_range: 10.69.150.202-10.99.165.135
+      - name: range_98
+        ip_range: 10.110.251.12-10.125.44.11
+      - name: range_99
+        ip_range: 10.80.14.126-10.185.17.131
+      - name: range_100
+        ip_range: 10.219.89.5-10.230.217.251
+      - name: range_101
+        ip_range: 10.11.99.134-10.29.150.69
+      - name: range_102
+        ip_range: 10.118.120.76-10.243.7.243
+      - name: range_103
+        ip_range: 10.75.142.57-10.115.91.199
+      - name: range_104
+        ip_range: 10.8.91.164-10.56.14.122
+      - name: range_105
+        ip_range: 10.111.242.205-10.255.211.92
+      - name: range_106
+        ip_range: 10.65.98.123-10.209.67.90
+      - name: range_107
+        ip_range: 10.79.162.74-10.182.210.32
+      - name: range_108
+        ip_range: 10.10.214.172-10.30.88.176
+      - name: range_109
+        ip_range: 10.83.192.36-10.184.36.169
+      - name: range_110
+        ip_range: 10.109.184.42-10.176.235.40
+      - name: range_111
+        ip_range: 10.24.98.248-10.35.51.55
+      - name: range_112
+        ip_range: 10.149.117.218-10.248.220.7
+      - name: range_113
+        ip_range: 10.77.7.142-10.232.121.25
+      - name: range_114
+        ip_range: 10.88.69.252-10.202.87.184
+      - name: range_115
+        ip_range: 10.11.203.155-10.86.23.200
+      - name: range_116
+        ip_range: 10.131.93.199-10.228.255.84
+      - name: range_117
+        ip_range: 10.9.23.126-10.132.155.63
+      - name: range_118
+        ip_range: 10.15.114.71-10.124.136.28
+      - name: range_119
+        ip_range: 10.44.171.157-10.139.85.248
+      - name: range_120
+        ip_range: 10.153.145.12-10.168.222.247
+      - name: range_121
+        ip_range: 10.144.183.226-10.189.249.211
+      - name: range_122
+        ip_range: 10.135.114.14-10.146.157.159
+      - name: range_123
+        ip_range: 10.21.91.116-10.52.185.89
+      - name: range_124
+        ip_range: 10.176.36.5-10.242.173.81
+      - name: range_125
+        ip_range: 10.9.182.87-10.69.174.26
+      - name: range_126
+        ip_range: 10.154.247.232-10.238.121.169
+      - name: range_127
+        ip_range: 10.92.231.142-10.154.12.68
+      - name: range_128
+        ip_range: 10.2.8.164-10.61.171.151
+      - name: range_129
+        ip_range: 10.9.54.151-10.193.251.134
+      - name: range_130
+        ip_range: 10.118.185.147-10.240.184.173
+      - name: range_131
+        ip_range: 10.219.33.253-10.235.60.194
+      - name: range_132
+        ip_range: 10.114.171.239-10.223.91.51
+      - name: range_133
+        ip_range: 10.45.26.73-10.137.45.191
+      - name: range_134
+        ip_range: 10.110.105.254-10.245.236.85
+      - name: range_135
+        ip_range: 10.77.57.41-10.249.221.196
+      - name: range_136
+        ip_range: 10.118.131.60-10.188.179.16
+      - name: range_137
+        ip_range: 10.229.214.208-10.233.107.20
+      - name: range_138
+        ip_range: 10.18.142.52-10.39.39.5
+      - name: range_139
+        ip_range: 10.33.13.60-10.67.14.199
+      - name: range_140
+        ip_range: 10.7.19.182-10.172.144.17
+      - name: range_141
+        ip_range: 10.74.34.53-10.163.12.205
+      - name: range_142
+        ip_range: 10.129.167.214-10.218.74.61
+      - name: range_143
+        ip_range: 10.62.12.195-10.205.186.22
+      - name: range_144
+        ip_range: 10.87.21.65-10.97.201.180
+      - name: range_145
+        ip_range: 10.53.209.64-10.240.182.41
+      - name: range_146
+        ip_range: 10.187.226.217-10.188.240.171
+      - name: range_147
+        ip_range: 10.47.136.42-10.198.200.214
+      - name: range_148
+        ip_range: 10.109.22.89-10.199.105.209
+      - name: range_149
+        ip_range: 10.114.241.125-10.200.174.107
+      - name: range_150
+        ip_range: 10.123.199.237-10.163.173.88
+      - name: range_151
+        ip_range: 10.90.100.195-10.218.39.55
+      - name: range_152
+        ip_range: 10.158.54.56-10.247.189.233
+      - name: range_153
+        ip_range: 10.106.0.59-10.141.110.109
+      - name: range_154
+        ip_range: 10.130.154.134-10.150.210.8
+      - name: range_155
+        ip_range: 10.6.8.21-10.82.184.215
+      - name: range_156
+        ip_range: 10.166.141.82-10.238.90.156
+      - name: range_157
+        ip_range: 10.200.10.155-10.228.8.149
+      - name: range_158
+        ip_range: 10.96.195.204-10.160.49.154
+      - name: range_159
+        ip_range: 10.63.16.122-10.143.105.144
+      - name: range_160
+        ip_range: 10.50.135.213-10.54.87.35
+      - name: range_161
+        ip_range: 10.143.124.179-10.198.208.85
+      - name: range_162
+        ip_range: 10.6.148.113-10.189.215.47
+      - name: range_163
+        ip_range: 10.16.143.171-10.68.241.238
+      - name: range_164
+        ip_range: 10.92.78.95-10.125.82.9
+      - name: range_165
+        ip_range: 10.0.100.95-10.235.235.51
+      - name: range_166
+        ip_range: 10.41.183.73-10.47.247.37
+      - name: range_167
+        ip_range: 10.50.1.247-10.132.103.99
+      - name: range_168
+        ip_range: 10.141.170.129-10.145.158.181
+      - name: range_169
+        ip_range: 10.82.194.183-10.190.173.76
+      - name: range_170
+        ip_range: 10.189.225.215-10.216.46.87
+      - name: range_171
+        ip_range: 10.146.250.51-10.180.80.79
+      - name: range_172
+        ip_range: 10.102.156.192-10.224.68.2
+      - name: range_173
+        ip_range: 10.1.160.106-10.131.117.47
+      - name: range_174
+        ip_range: 10.79.39.208-10.196.17.97
+      - name: range_175
+        ip_range: 10.29.154.135-10.74.78.191
+      - name: range_176
+        ip_range: 10.49.224.103-10.170.11.175
+      - name: range_177
+        ip_range: 10.68.34.93-10.251.226.56
+      - name: range_178
+        ip_range: 10.198.152.147-10.211.99.100
+      - name: range_179
+        ip_range: 10.111.239.185-10.170.132.67
+      - name: range_180
+        ip_range: 10.38.163.217-10.190.18.200
+      - name: range_181
+        ip_range: 10.17.110.204-10.47.235.104
+      - name: range_182
+        ip_range: 10.10.198.131-10.227.233.215
+      - name: range_183
+        ip_range: 10.68.12.102-10.224.103.164
+      - name: range_184
+        ip_range: 10.27.10.243-10.137.158.196
+      - name: range_185
+        ip_range: 10.104.95.127-10.146.39.224
+      - name: range_186
+        ip_range: 10.94.51.45-10.105.98.136
+      - name: range_187
+        ip_range: 10.17.80.214-10.170.241.175
+      - name: range_188
+        ip_range: 10.47.153.225-10.97.26.169
+      - name: range_189
+        ip_range: 10.126.168.237-10.187.41.17
+      - name: range_190
+        ip_range: 10.106.132.186-10.112.172.249
+      - name: range_191
+        ip_range: 10.32.98.158-10.240.12.225
+      - name: range_192
+        ip_range: 10.107.30.109-10.112.143.175
+      - name: range_193
+        ip_range: 10.9.233.148-10.79.186.143
+      - name: range_194
+        ip_range: 10.55.83.63-10.191.24.54
+      - name: range_195
+        ip_range: 10.146.138.188-10.211.41.80
+      - name: range_196
+        ip_range: 10.169.72.168-10.186.116.39
+      - name: range_197
+        ip_range: 10.183.40.231-10.229.164.148
+      - name: range_198
+        ip_range: 10.99.125.175-10.216.93.70
+      - name: range_199
+        ip_range: 10.58.214.94-10.175.252.150
+      - name: range_200
+        ip_range: 10.60.167.132-10.69.117.164
