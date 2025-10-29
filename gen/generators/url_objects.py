@@ -49,12 +49,13 @@ def generate_url_groups(url_groups_number, available_url_objects):
             url_group['urls'] = selected_urls
 
         # Add literal URLs (1-3 literals)
+        # Use a set to ensure no duplicates
         num_literals = random.randint(1, 3)
-        literals = []
-        for _ in range(num_literals):
+        literals = set()
+        while len(literals) < num_literals:
             subdomain = random.choice(subdomains)
-            literals.append(f'https://{subdomain}.example.com')
-        url_group['literals'] = literals
+            literals.add(f'https://{subdomain}.example.com')
+        url_group['literals'] = list(literals)
 
         url_groups.append(url_group)
 
