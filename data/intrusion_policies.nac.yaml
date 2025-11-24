@@ -4,11 +4,11 @@ fmc:
     policies:
       intrusion_policies:
       - name: intrusion_policy_1
-        inspection_mode: DETECTION
-        base_policy: Balanced Security and Connectivity
-      - name: intrusion_policy_2
         inspection_mode: PREVENTION
         base_policy: Security Over Connectivity
+      - name: intrusion_policy_2
+        inspection_mode: PREVENTION
+        base_policy: Balanced Security and Connectivity
       - name: intrusion_policy_3
-        inspection_mode: DETECTION
+        inspection_mode: PREVENTION
         base_policy: Balanced Security and Connectivity

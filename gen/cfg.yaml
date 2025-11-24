@@ -1,15 +1,15 @@
 settings:
-  - hosts_number: 800
-  - networks_number: 800
-  - ranges_number: 200
-  - ports_number: 500
+  - hosts_number: 50
+  - networks_number: 50
+  - ranges_number: 20
+  - ports_number: 50
   - icmpv4s_number: 30
-  - security_zones_number: 30
-  - port_groups_number: 200
-  - network_groups_number: 400
-  - urls_number: 800
-  - url_groups_number: 200
+  - security_zones_number: 10
+  - port_groups_number: 20
+  - network_groups_number: 40
+  - urls_number: 30
+  - url_groups_number: 5
   - intrusion_policies_number: 3
   - access_control_policies_number: 1
   - access_control_categories_number: 4
-  - access_control_rules_number: 1000
+  - access_control_rules_number: 300

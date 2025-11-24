@@ -2,7 +2,7 @@
 
 Python CLI application that generates YAML configuration files for the Network As Code for Cisco Secure Firewall Management Center (nac-fmc) Terraform module.
 
-Generated configuration is fully random and is used only to demonstrate capabilities of the solution.
+Generated configuration is fully random, does not rely on previous generations, and is used only to demonstrate capabilities of the solution.
 
 ## About nac-fmc
 
@@ -137,24 +137,4 @@ For more information on configuring and using the nac-fmc module, refer to the [
 
 ## Data Model Documentation
 
-### Network Objects
-- [Host objects](https://netascode.cisco.com/docs/data_models/fmc/objects/host/)
-- [Network objects](https://netascode.cisco.com/docs/data_models/fmc/objects/network/)
-- [Range objects](https://netascode.cisco.com/docs/data_models/fmc/objects/range/)
-- [Network Group objects](https://netascode.cisco.com/docs/data_models/fmc/objects/network_group/)
-
-### Service Objects
-- [Port objects](https://netascode.cisco.com/docs/data_models/fmc/objects/port/)
-- [ICMPv4 objects](https://netascode.cisco.com/docs/data_models/fmc/objects/icmpv4/)
-- [Port Group objects](https://netascode.cisco.com/docs/data_models/fmc/objects/port_group/)
-
-### URL Objects
-- [URL objects](https://netascode.cisco.com/docs/data_models/fmc/objects/url/)
-- [URL Group objects](https://netascode.cisco.com/docs/data_models/fmc/objects/url_group/)
-
-### Zone Objects
-- [Security Zone objects](https://netascode.cisco.com/docs/data_models/fmc/objects/security_zone/)
-
-### Policy Objects
-- [Intrusion Policy objects](https://netascode.cisco.com/docs/data_models/fmc/policies/intrusion_policy/)
-- [Access Control Policy objects](https://netascode.cisco.com/docs/data_models/fmc/policies/access_policy/)
+Data model describes the structure of the YAML files and is available at [https://netascode.cisco.com/docs/data_models/fmc/overview/](https://netascode.cisco.com/docs/data_models/fmc/overview/).

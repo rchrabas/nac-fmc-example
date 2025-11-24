@@ -14,7 +14,7 @@ from generators.group_objects import generate_network_groups
 from generators.policy_objects import (
     generate_intrusion_policies,
     create_intrusion_policy_prerequisites,
-    generate_access_policies
+    generate_access_control_policies
 )
 
 
@@ -38,10 +38,10 @@ def main():
     # Track available URL object names for URL groups
     available_url_objects = []
 
-    # Track available security zone names for access policies
+    # Track available security zone names for access control policies
     available_security_zones = []
 
-    # Track available intrusion policy names for access policies
+    # Track available intrusion policy names for access control policies
     available_intrusion_policies = []
 
     # Generate hosts
@@ -171,16 +171,16 @@ def main():
             # Add intrusion policy names to available intrusion policies
             available_intrusion_policies.extend([ip['name'] for ip in intrusion_policies])
 
-    # Generate access policies (must be after all objects and policies)
+    # Generate access control policies (must be after all objects and policies)
     if 'access_control_policies_number' in settings:
         policies_number = settings['access_control_policies_number']
-        categories_number = settings.get('access_control_categories_number', 0)
-        rules_number = settings.get('access_control_rules_number', 0)
+        categories_number = settings.get('access_control_policy_categories_number', 0)
+        rules_number = settings.get('access_control_policy_rules_number', 0)
 
         if policies_number > 0 and (categories_number > 0 or rules_number > 0):
-            # Generate the access policies
-            print(f"Generating {policies_number} access polic(ies) with {categories_number} categories and {rules_number} rules each...")
-            access_policies = generate_access_policies(
+            # Generate the access control policies
+            print(f"Generating {policies_number} access control polic(ies) with {categories_number} categories and {rules_number} rules each...")
+            access_control_policies = generate_access_control_policies(
                 policies_number,
                 categories_number,
                 rules_number,
@@ -192,10 +192,10 @@ def main():
             )
 
             # Write each policy to a separate file
-            for policy in access_policies:
+            for policy in access_control_policies:
                 policy_name = policy['name']
-                fmc_data = create_fmc_policy_structure('access_policies', [policy])
-                write_output(fmc_data, f'access_policies_{policy_name}.nac.yaml')
+                fmc_data = create_fmc_policy_structure('access_control_policies', [policy])
+                write_output(fmc_data, f'access_control_policies_{policy_name}.nac.yaml')
 
     print("=" * 50)
     print("Generation completed successfully!")

@@ -16,6 +16,7 @@ __pycache__/
 .terraform
 .terraform.lock.hcl
 terraform.tfstate*
+.terraform.tfstate.lock.info
 
 # Claude
 .claude

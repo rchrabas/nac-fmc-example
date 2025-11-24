@@ -11,8 +11,8 @@ INTRUSION_POLICIES_BASE_POLICIES = [
     "Security Over Connectivity"
 ]
 
-# Valid access policy default actions
-ACCESS_POLICY_DEFAULT_ACTIONS = [
+# Valid access control policy default actions
+ACCESS_CONTROL_POLICY_DEFAULT_ACTIONS = [
     "BLOCK",
     "TRUST",
     "PERMIT",
@@ -80,7 +80,7 @@ def create_intrusion_policy_prerequisites():
     }
 
 
-def generate_access_policies(
+def generate_access_control_policies(
     policies_number,
     categories_per_policy,
     rules_per_policy,
@@ -91,11 +91,11 @@ def generate_access_policies(
     available_url_objects
 ):
     """
-    Generate access policy objects with sequential names.
+    Generate access control policy objects with sequential names.
     Each policy includes categories and access rules.
 
     Args:
-        policies_number: Number of access policies to generate
+        policies_number: Number of access control policies to generate
         categories_per_policy: Number of categories per policy
         rules_per_policy: Number of rules per policy
         available_network_objects: List of network object names (hosts, networks, ranges, network_groups)
@@ -104,7 +104,7 @@ def generate_access_policies(
         available_intrusion_policies: List of intrusion policy names
         available_url_objects: List of URL object names (urls, url_groups)
     """
-    access_policies = []
+    access_control_policies = []
 
     for policy_num in range(1, policies_number + 1):
         # Generate categories for this policy
@@ -228,14 +228,14 @@ def generate_access_policies(
 
             access_rules.append(rule)
 
-        # Create the access policy
-        access_policy = {
-            'name': f'access_policy_{policy_num}',
-            'default_action': random.choice(ACCESS_POLICY_DEFAULT_ACTIONS),
+        # Create the access control policy
+        access_control_policy = {
+            'name': f'access_control_policy_{policy_num}',
+            'default_action': random.choice(ACCESS_CONTROL_POLICY_DEFAULT_ACTIONS),
             'categories': categories,
             'access_rules': access_rules
         }
 
-        access_policies.append(access_policy)
+        access_control_policies.append(access_control_policy)
 
-    return access_policies
+    return access_control_policies
