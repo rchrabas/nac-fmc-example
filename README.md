@@ -4,6 +4,8 @@ Python CLI application that generates YAML configuration files for the Network A
 
 Generated configuration is fully random, does not rely on previous generations, and is used only to demonstrate capabilities of the solution.
 
+Sample configuration files are already generated in the `data/` folder. If these meet your needs, you can proceed directly to applying them with Terraform (see "Applying Configuration to FMC" section).
+
 ## About nac-fmc
 
 The [nac-fmc Terraform module](https://registry.terraform.io/modules/netascode/nac-fmc/fmc/latest) provides a Network-as-Code (NaC) solution for managing Cisco Secure Firewall Manager (FMC) configurations. It enables infrastructure-as-code practices by allowing you to define FMC objects, policies, and configurations in YAML files, which are then applied using Terraform.
@@ -12,8 +14,13 @@ This generator creates sample YAML configurations that can be used as input for 
 
 ## Requirements
 
-- Python 3.10+
-- PyYAML
+### Generator Requirements
+- Python 3.10 or greater
+- PyYAML package
+
+### Running Generated Configuration
+- Terraform 1.8 or greater
+- Access to Cisco Secure Firewall Manager (FMC)
 
 ## Setup
 
